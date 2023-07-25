@@ -1,0 +1,43 @@
+:root {
+    --Color-01: #3c3c3c;
+    --Background-C: ;
+    --fontF1:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --FontF2: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.header {
+    padding: 20px;
+    padding-top: 0px;
+    text-size-adjust: 50px;
+    font: "Arial";
+    color:var(--Color-01);
+}
+
+.message {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    font: var(--fontF1);
+    color:var(--Color-01);
+}
+
+
+/* Sets the containers height and width */
+.base-timer {
+    position: relative;
+    height: 300px;
+    width: 300px;
+  }
+  
+  /* Removes SVG styling that would hide the time label */
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  /* The SVG path that displays the timer's progress */
+  .base-timer__path-elapsed {
+    stroke-width: 1px;
+    stroke: grey;
+  }
