@@ -8,29 +8,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <div class = "header">
+   <div class = "wrapper">
     <header>
         Code Quiz
     </header>
-    <div class = "Message">
+    <div class = "message">
         <h2>
             Code Quiz Challenge!
         </h2>
         <p>
-            Try to quickly answer each question in 55 seconds, for every question gotten incorrect 15 seconds is deducted, for every question gotten correct 15 seconds are added.
+            Answer questions in 55 seconds, for every incorrect answer 15 seconds is deducted and for every correct answer 15 seconds are added.
         </p>
-        div class="base-timer">
-        <svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <g class="base-timer__circle">
-            <circle class="base-timer__path-elapsed" cx="10" cy="93" r="5" />
-          </g>
-        </svg>
-        <span>
-          <!-- Remaining time label -->
-        </span>
-      </div>
-    </div>
-   </div>
+        <div id = "question-container">
+          <div class = "question-header">
+            <h2>Click start to begin</h2>
+            <button id = "start-btn">Start</button>
+          </div>
+        </div>
+        <div class = "questions">
+          <p id = "questions-text"></p>
+          <ul id = "choices"></ul>
+          <p>Time Left: <span id = "timer">55</span>seconds</p>
+        </div>
+        <div id = "result-container" style = "display: none;">
+          <h2>Quiz Result</h2>
+          <p>Your Score: <span id = "score"></span></p>
+        </div>
+
     <script src="script.js"></script>
   </body>
 </html>

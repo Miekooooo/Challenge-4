@@ -4,12 +4,29 @@
     --fontF1:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --FontF2: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+html,
+body,
+.wrapper {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: var(--FontF2);
+  background-color: var(--Background-C);
+}
 
-.header {
-    padding: 20px;
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+    padding: 5px;
     padding-top: 0px;
-    text-size-adjust: 50px;
+    font-size: 80px;
     font: "Arial";
     color:var(--Color-01);
 }
@@ -22,22 +39,14 @@
     color:var(--Color-01);
 }
 
-
-/* Sets the containers height and width */
-.base-timer {
-    position: relative;
-    height: 300px;
-    width: 300px;
-  }
-  
-  /* Removes SVG styling that would hide the time label */
-  .base-timer__circle {
-    fill: none;
-    stroke: none;
-  }
-  
-  /* The SVG path that displays the timer's progress */
-  .base-timer__path-elapsed {
-    stroke-width: 1px;
-    stroke: grey;
-  }
+.card {
+  background-color: var(--Card-C);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: #00000026 0px 2px 8px 0px;
+  color: var(--Card-Text);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+}
