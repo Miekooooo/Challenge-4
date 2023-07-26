@@ -39,7 +39,7 @@ header {
     color:var(--Color-01);
 }
 
-.card {
+.question-container {
   background-color: var(--Card-C);
   border-radius: 5px;
   border-width: 1px;
