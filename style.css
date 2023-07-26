@@ -50,3 +50,58 @@ header {
   max-width: 800px;
   padding: 30px 40px;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: #007bff;
+}
+
+#question-container, #quiz-container, #result-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#quiz-container, #result-container {
+  display: none;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#choices li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#choices li:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+#result-container {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#score {
+  color: #007bff; 
