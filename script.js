@@ -5,24 +5,24 @@ const questions = [
       correctAnswer: "ls"
     },
     {
-      question: "What is the capital of France?",
-      choices: ["Berlin", "London", "Paris"],
-      correctAnswer: "Paris"
+      question: "Which is a unordered list?",
+      choices: ["ul", "li", "ol"],
+      correctAnswer: "ul"
     },
     {
-      question: "Which planet is known as the Red Planet?",
-      choices: ["Venus", "Mars", "Jupiter"],
-      correctAnswer: "Mars"
+      question: "What represents the end of the HTML page?",
+      choices: ["<footer>", "<header>", "<section>"],
+      correctAnswer: "<footer>"
     },
     {
-      question: "What is the symbol for the element Oxygen?",
-      choices: ["O", "Ox", "O2"],
-      correctAnswer: "O"
+      question: "What is the outer most section of the box model?",
+      choices: ["content", "border", "margin"],
+      correctAnswer: "margin"
     },
     {
-      question: "What is the tallest mammal on Earth?",
-      choices: ["Elephant", "Giraffe", "Whale"],
-      correctAnswer: "Giraffe"
+      question: "Which operator will add in javascript?",
+      choices: ["--", "++", "//"],
+      correctAnswer: "++"
     }
   ];
 
