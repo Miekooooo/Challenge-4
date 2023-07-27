@@ -12,10 +12,10 @@
 
 A short 5 question quiz over coding topics, 55 seconds is given to answer each question. Whether or not the user answers the questions correctly will either deduct or add 15 seconds to their time.
 
-- "what was my motivation?" 
-- "why did I build this project?" 
-- "what problem does it solve?" 
-- "what did I learn?" 
+- "what was my motivation?" To build a quick and easy quiz application.
+- "why did I build this project?" To learn how to create a quiz and timer functions.
+- "what problem does it solve?" Gives user a simple and easy foundation change the applications questions to their liking.
+- "what did I learn?" How to create a timer, and a multiple choice quiz application.
 
 ## Features
 
@@ -24,21 +24,24 @@ A short 5 question quiz over coding topics, 55 seconds is given to answer each q
 
 ## Screenshots
 
+![Alt text](Questions-Javascript.PNG)
+![Alt text](Card.PNG)
+![Alt text](Timer.PNG)
 
 ## Installation
 
-
+--------------
 
 ## Usage
 
-Simple short quiz applications.
+Simple short quiz applications. 
 
 ## Credits
 
-Refactored existing given code.
-Reused "challenge-3" README as a template.
-https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp
-https://dev.to/walternascimentobarroso/creating-a-timer-with-javascript-8b7
+    Refactored code from "challenge-3?
+    Reused "challenge-3" README as a template.
+    "https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp"
+    "https://dev.to/walternascimentobarroso/creating-a-timer-with-javascript-8b7"
 
 ## License 
 
