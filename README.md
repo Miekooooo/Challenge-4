@@ -19,7 +19,8 @@ A short 5 question quiz over coding topics, 55 seconds is given to answer each q
 
 ## Features
 
-
+- Timer
+- Buttons
 
 ## Screenshots
 
@@ -30,13 +31,14 @@ A short 5 question quiz over coding topics, 55 seconds is given to answer each q
 
 ## Usage
 
-
+Simple short quiz applications.
 
 ## Credits
 
 Refactored existing given code.
 Reused "challenge-3" README as a template.
-
+https://dev.to/sulaimonolaniran/building-a-simple-quiz-with-html-css-and-javascript-4elp
+https://dev.to/walternascimentobarroso/creating-a-timer-with-javascript-8b7
 
 ## License 
 

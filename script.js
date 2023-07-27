@@ -1,8 +1,8 @@
 const questions = [
     {
-      question: "What is 2 + 2?",
-      choices: ["3", "4", "5"],
-      correctAnswer: "4"
+      question: "What gitbash command shows whats in your active directory?",
+      choices: ["ls", "cd", "git push"],
+      correctAnswer: "ls"
     },
     {
       question: "What is the capital of France?",
